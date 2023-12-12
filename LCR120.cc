@@ -2,6 +2,9 @@
 #include <iostream>
 #include <unordered_map>
 
+/*
+    Link: https://leetcode.cn/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/description/
+*/
 class Solution {
 public:
     int findRepeatDocument(std::vector<int>& documents) {
