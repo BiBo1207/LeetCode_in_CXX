@@ -5,7 +5,7 @@
 /*
     Link: https://leetcode.cn/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/description/
 */
-class Solution {
+class LCR120 {
 public:
     int findRepeatDocument(std::vector<int>& documents) {
         int i = 0;
@@ -36,7 +36,7 @@ public:
 };
 
 int main() {
-    Solution s{};
+    LCR120 s{};
     std::vector<int> data{2, 5, 3, 0, 5, 0};
     std::cout << s.findRepeatDocument(data) << std::endl;
     return 0;
